@@ -2,6 +2,11 @@ package leetcode;
 
 /**
  * Created by tjoe on 2017/3/28.
+ * 判断数字是否为回文数转化为回文数
+ *
+ *
+ * 解决方案：从左至右，每次除10取余，并求出右半部分反序的数值。
+ * 当两侧游标会和，或者交叉，判断左半部分和右半部分的值是否相等。
  */
 public class PalindromeNumber {
 //    public boolean isPalindrome(int x) {
